@@ -4,6 +4,8 @@ import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaSquareGithub } from "react-icons/fa6";
 
+import pic from "../../public/myimage.jpeg";
+
 import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -73,7 +75,7 @@ function Home(){
             </div>
             </div>
             <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
-            <img src="Merajpic.jpeg" 
+            <img src={pic}
              className="rounded-full  md:w-[450px] md:h-[450px]"
             alt=""
             />
